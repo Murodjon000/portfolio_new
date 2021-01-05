@@ -1,0 +1,8 @@
+.header__box{
+    height: 72px;
+}
+
+.header__box > a{
+    font-weight: 600;
+    color: var(--black-50);
+}
