@@ -4,21 +4,198 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/cards.css">
     <link rel="stylesheet" href="./styles/flex.css">
+    <link rel="stylesheet" href="./styles/grid.css">
     <link rel="stylesheet" href="./styles/display.css">
     <link rel="stylesheet" href="./styles/space.css">
+    <link rel="stylesheet" href="./styles/typo.css">
+    <link rel="stylesheet" href="./styles/background.css">
 </head>
 <body>
+    
     <header class="">
         <div class="header__box flex justify-center align-center">
             <a href="#">Portfolio</a>
             <a href="#" class="mx-4">About</a>
             <a href="#">Contact</a>
         </div>
+       
     </header>
+    <!-- <div class="top__image"></div>
+    <div class="grop"></div>
+    <div class="group"></div>
+    <div class="frame2"></div>
+    <div class="frame3"></div>
+    <div class="frame4"></div>
+    <div class="group2"></div>
+    <div class="group3"></div>
+    <div class="group4"></div> -->
+    <main>
+        <div>
+            <div class="container flex flex-column align-center justify-center">
+                <div class=" main__box flex flex-column justify-center mx-auto mb-6">
+                    <h1 class="black">Hey there.I`m Murod.</h1>
+                    <h1 class="green">I`m a software developer</h1>
+                </div>
+                <span class="span_main black-100">I can help you build a product , feature or website Look through some of my work and </span>
+                <span class="span_main black-100">experience! If you like what you see and have a project you need coded,</span>
+                <span class="span_main black-100"> don’t hestiate to contact me.</span>
+               <div class="main__icons flex  justify-center mx-auto mt-6">
+                   <a href=""><i class='bx bxl-github gray-700 main__box-con'></i></a>
+                   <a href=""><i class='bx bxl-linkedin gray-700 main__box-con' ></i></a>
+                   <a href=""><i class='bx bxl-twitter gray-700 main__box-con' ></i></a>
+                   <a href=""><i class='bx bxl-facebook gray-700 main__box-con' ></i></a>
+               </div>
+            </div>
+        </div>
+        <div class="mx-75 mx-auto flex justify-center flex-column">
+            <h1 class="text-center px-6 flex align-center justify-center top__text">My Recent Works</h1>
+            <div class="flex flex-column justify-center  px-6 grid gap-3 lg:grid-cols-3 md:grid-cols-2">
+                <div class="border-round-full border flex flex-column justify-center mb-8 ">
+                    <img class="border-round w-100" src="./assets/bird.jpg"  alt="">
+                    <div class="">
+                        <h2 class="card__inner-text text-center p-4">Multi Post Stories</h2>
+                        <div class="flex justify-center flex-wrap cards__span-box ">
+                            <span class="px-3 py-2 border-round-min card__span">Ruby on rails</span>
+                            <span class="px-3 py-2 border-round-min card__span">JavaScript</span>
+                            <span class="px-3 py-2 border-round-min card__span">Html</span>
+                            <span class="px-3 py-2 border-round-min card__span">Css</span>
+                        </div>
+                     <button class="flex btn-primary mx-auto justify-center text-white align-center border-round-min p-3 mb-6 mt-6 bg-green">See Project</button>
+                    </div>
+                </div>
+                <div class="border-round-full border flex flex-column justify-center mb-8 ">
+                    <img class="border-round w-100" src="./assets/bird.jpg"  alt="">
+                    <div class="">
+                        <h2 class="card__inner-text text-center p-4">Multi Post Stories</h2>
+                        <div class="flex justify-center flex-wrap cards__span-box ">
+                            <span class="px-3 py-2 border-round-min card__span">Ruby on rails</span>
+                            <span class="px-3 py-2 border-round-min card__span">JavaScript</span>
+                            <span class="px-3 py-2 border-round-min card__span">Html</span>
+                            <span class="px-3 py-2 border-round-min card__span">Css</span>
+                        </div>
+                     <button class="flex btn-primary mx-auto justify-center text-white align-center border-round-min p-3 mb-6 mt-6 bg-green">See Project</button>
+                    </div>
+                </div>
+                <div class="border-round-full border flex flex-column justify-center mb-8 ">
+                    <img class="border-round w-100" src="./assets/bird.jpg"  alt="">
+                    <div class="">
+                        <h2 class="card__inner-text text-center p-4">Multi Post Stories</h2>
+                        <div class="flex justify-center flex-wrap cards__span-box ">
+                            <span class="px-3 py-2 border-round-min card__span">Ruby on rails</span>
+                            <span class="px-3 py-2 border-round-min card__span">JavaScript</span>
+                            <span class="px-3 py-2 border-round-min card__span">Html</span>
+                            <span class="px-3 py-2 border-round-min card__span">Css</span>
+                        </div>
+                     <button class="flex btn-primary mx-auto justify-center text-white align-center border-round-min p-3 mb-6 mt-6 bg-green">See Project</button>
+                    </div>
+                </div>
+                <div class="border-round-full border flex flex-column justify-center mb-8 ">
+                    <img class="border-round w-100" src="./assets/bird.jpg"  alt="">
+                    <div class="">
+                        <h2 class="card__inner-text text-center p-4">Multi Post Stories</h2>
+                        <div class="flex justify-center flex-wrap cards__span-box ">
+                            <span class="px-3 py-2 border-round-min card__span">Ruby on rails</span>
+                            <span class="px-3 py-2 border-round-min card__span">JavaScript</span>
+                            <span class="px-3 py-2 border-round-min card__span">Html</span>
+                            <span class="px-3 py-2 border-round-min card__span">Css</span>
+                        </div>
+                     <button class="flex btn-primary mx-auto justify-center text-white align-center border-round-min p-3 mb-6 mt-6 bg-green">See Project</button>
+                    </div>
+                </div>
+                <div class="border-round-full border flex flex-column justify-center mb-8 ">
+                    <img class="border-round w-100" src="./assets/bird.jpg"  alt="">
+                    <div class="">
+                        <h2 class="card__inner-text text-center p-4">Multi Post Stories</h2>
+                        <div class="flex justify-center flex-wrap cards__span-box ">
+                            <span class="px-3 py-2 border-round-min card__span">Ruby on rails</span>
+                            <span class="px-3 py-2 border-round-min card__span">JavaScript</span>
+                            <span class="px-3 py-2 border-round-min card__span">Html</span>
+                            <span class="px-3 py-2 border-round-min card__span">Css</span>
+                        </div>
+                     <button class="flex btn-primary mx-auto justify-center text-white align-center border-round-min p-3 mb-6 mt-6 bg-green">See Project</button>
+                    </div>
+                </div>
+                <div class="border-round-full border flex flex-column justify-center mb-8 ">
+                    <img class="border-round w-100" src="./assets/bird.jpg"  alt="">
+                    <div class="">
+                        <h2 class="card__inner-text text-center p-4">Multi Post Stories</h2>
+                        <div class="flex justify-center flex-wrap cards__span-box ">
+                            <span class="px-3 py-2 border-round-min card__span">Ruby on rails</span>
+                            <span class="px-3 py-2 border-round-min card__span">JavaScript</span>
+                            <span class="px-3 py-2 border-round-min card__span">Html</span>
+                            <span class="px-3 py-2 border-round-min card__span">Css</span>
+                        </div>
+                     <button class="flex btn-primary mx-auto justify-center text-white align-center border-round-min p-3 mb-6 mt-6 bg-green">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="about__box flex flex-column align-center justify-center px-6">
+                <div class="about__head flex flex-column justify-center mx-auto">
+                    <h1 class="black-100 text-lg">About Me</h1>
+                </div>
+                <span class="span_main black-100">I can help you build a product , feature or website Look through some of my work and </span>
+                <span class="span_main black-100">experience! If you like what you see and have a project you need coded,</span>
+                <span class="span_main black-100"> don’t hestiate to contact me.</span>
+                <button class="flex btn-primary mx-auto justify-center text-white align-center border-round-min p-3 mb-8 mt-6 bg-green">Get My Resume</button>
+                <div class="md:grid lg:grid-cols-3 md:grid-cols-2 gap-3">
+                    <div class="border-round-full border flex flex-column justify-center mb-8 bg-gray ">
+                        <div class="px-7">
+                            <div class="flex justify-center mt-10">
+                                <span class="">
+                                    <img src="./assets/Icons.png" alt="">
+                                </span>
+                            </div>
+                            <h2 class="about__inner-text text-center p-4">Languages</h2>
+                            <div class="flex justify-center flex-wrap cards__span-box about__cards-span-box">
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Ruby</span>
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">JavaScript</span>
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Html</span>
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Css</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-round-full border flex flex-column justify-center mb-8 bg-gray ">
+                        <div class="px-7">
+                            <div class="flex justify-center mt-10">
+                                <span class="">
+                                    <img src="./assets/Icons (1).png" alt="">
+                                </span>
+                            </div>
+                            <h2 class="about__inner-text text-center p-4">Frameworks</h2>
+                            <div class="flex justify-center flex-wrap cards__span-box about__cards-span-box">
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Bootsrap</span>
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Ruby on rails</span>
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">RSpec</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-round-full border flex flex-column justify-center mb-8 bg-gray ">
+                        <div class="px-7">
+                            <div class="flex justify-center mt-10">
+                                <span class="">
+                                    <img src="./assets/Icons (2).png" alt="">
+                                </span>
+                            </div>
+                            <h2 class="about__inner-text text-center p-4">Skills</h2>
+                            <div class="flex justify-center flex-wrap cards__span-box about__cards-span-box">
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Github</span>
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Codepen</span>
+                                <span class="px-3 py-2 mb-2 border-round-full card__span-about">Terminal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
