@@ -1,0 +1,8 @@
+.bg-green{
+    background-color: var(--green-100);
+}
+
+.bg-gray{
+    background-color: var(--gray-50);
+}
+
