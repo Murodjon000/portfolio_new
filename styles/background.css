@@ -6,3 +6,10 @@
     background-color: var(--gray-50);
 }
 
+.bg-white{
+    background-color: white;
+}
+
+.bg-primary{
+    background-color: var(--gray-100);
+}
