@@ -27,6 +27,12 @@
     border-radius: 8px 8px 0 0;
 }
 
+
+
+.border-round-b{
+    border-radius: 0 0 8px 8px;
+}
+
 .border-round-full{
     border-radius: 8px;
 }
@@ -39,6 +45,18 @@
     border: 1px solid #D0D9D4;
 }
 
+.border-green{
+    border: 1px solid #60C095;
+}
+
+.border-top{
+    border-top: 1px solid #DFE1E6;;
+}
+
 .text-lg{
     font-size: 40px;
+}
+
+.text-input{
+    color: var(--gray-200);
 }
