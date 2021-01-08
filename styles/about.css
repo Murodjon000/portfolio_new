@@ -33,3 +33,32 @@ font-size: 24px;
 line-height: 32px;
 color: var(--black-300);
 }
+
+.input__box{
+    max-width: 330px;
+}
+
+.connection__head{
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 52px;
+color: #172B4D;
+}
+
+.connection__box{
+    margin-top: 162px;
+}
+
+
+.right{
+    float: right;
+}
+
+.source{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius:8px 0  0 8px;
+    padding: 8px;
+}
