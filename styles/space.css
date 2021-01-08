@@ -3,6 +3,14 @@
     margin-right: 16px;
 }
 
+.ml-2{
+    margin-left: 8px;
+}
+
+.mr-1{
+    margin-right: 4px;
+}
+
 .mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -12,8 +20,16 @@
     margin-bottom: 8px;
 }
 
+.mt-3{
+    margin-top: 12px;
+}
+
 .mt-6{
     margin-top: 24px;
+}
+
+.mt-7{
+    margin-top: 28px;
 }
 
 .mt-10{
@@ -30,6 +46,10 @@
 
 .mx-75{
     max-width: 75rem;
+}
+
+.mx-55{
+    max-width: 55rem;
 }
 
 .px-3{
@@ -63,4 +83,8 @@
 
 .w-100{
     width: 100%;
+}
+
+.w-65{
+    width: 65%;
 }
