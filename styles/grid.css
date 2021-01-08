@@ -12,6 +12,14 @@
         display: grid;
     }
 
+    .md\:hidden{
+      display: none;
+    }
+
+    .md\:justify-start{
+      justify-content: flex-start;
+  }
+
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -22,7 +30,19 @@
   }
   
   @media only screen and (min-width: 1024px) {
+    .lg\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .lg\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
+    .lg\:flex{
+      display: flex;
+    }
+
+    .lg\:gap-4 {
+      column-gap: 16px;
+    } 
   }
