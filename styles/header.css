@@ -7,7 +7,11 @@
     color: var(--black-50);
 }
 
-.top__image{
+.header__link:hover{
+color: var(--gray-200);
+}
+
+/* .top__image{
 position: absolute;
 width: 220.22px;
 height: 147.72px;
@@ -99,4 +103,4 @@ top: 720.27px;
 opacity: 0.88;
 transform: rotate(168.14deg);
 background-image: url(../assets/Group\ 37.png);
-}
+} */
