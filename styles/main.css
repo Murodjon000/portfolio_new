@@ -30,3 +30,7 @@ text-align: center;
 .main__box-con{
 font-size: 24px;
 }
+
+.main__box-con:hover{
+  color: var(--black-200);
+}
