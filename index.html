@@ -25,12 +25,25 @@
 <body>
 
     <header class="">
-        <div class="header__box mx-55 flex mx-auto justify-between align-center">
+        <div class="header__box mx-55 px-6 md:flex mx-auto justify-between align-center hidden">
             <a href="#home" class="flex align-center header__link"><i class='bx bxs-home mr-1'></i>Home</a>
             <a href="#about" class="flex align-center header__link"><i class='bx bx-id-card mr-1'></i>About Me</a>
             <a href="#projects" class="flex align-center header__link"><i class='bx bx-network-chart mr-1'></i>Projects</a>
             <a href="#connect" class="flex align-center header__link"><i class='bx bxs-contact mr-1'></i>Contact</a>
         </div>
+        <div class="md:hidden mob_box">
+            <div id="myNav" class="overlay-header">
+                <button class="closebtn" onclick="closeNav()"><i class='bx bx-x'></i></button>
+                <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <button style="font-size:30px;cursor:pointer" onclick="openNav()"><i class='bx bx-bar-chart'></i></button>
+        </div>
+
     </header>
     <!-- <div class="top__image"></div>
     <div class="grop"></div>
@@ -265,7 +278,10 @@
             <a href="https://www.facebook.com/murodjon.tursunpulatov/" target="_blank"><i class='bx bxl-facebook gray-700 main__box-con'></i></a>
         </div>
     </footer>
+
     <script src="./modal.js"></script>
+    <script src="./header.js"></script>
+
 </body>
 
 </html>
