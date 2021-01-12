@@ -23,6 +23,10 @@
         display: grid;
     }
 
+    .md\:flex{
+        display: flex;
+    }
+
     .md\:justify-start{
       justify-content: flex-start;
   }
