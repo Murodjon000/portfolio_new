@@ -23,18 +23,13 @@
         display: grid;
     }
 
- 
-
-
     .md\:justify-start{
       justify-content: flex-start;
   }
 
-
   }
   
   @media only screen and (min-width: 1024px) {
-
     .md\:flex{
       display: flex;
     }
@@ -42,6 +37,4 @@
     .md\:hidden{
         display: none;
       }
-
-   
   }
