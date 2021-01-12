@@ -8,10 +8,6 @@
       gap: 16px;
     } 
 
-    .md\:grid{
-        display: grid;
-    }
-
     .md\:hidden{
       display: none;
     }
