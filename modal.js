@@ -19,6 +19,25 @@ closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 
 
+// var modal_two = document.querySelector(".modal_two");
+// var trigger_two = document.querySelector(".trigger_two");
+// var closeButton_two = document.querySelector(".modal-close-btn_two");
+// var overlay_two = document.querySelector(".overlay_two")
+
+// function toggleModal() {
+//   modal_two.classList.toggle("show-modal");
+//   overlay_two.classList.toggle('is-visible')
+// }
+
+// function windowOnClick(event) {
+//   if (event.target === modal_two) {
+//     toggleModal();
+//   }
+// }
+
+// trigger_two.addEventListener("click", toggleModal);
+// closeButton_two.addEventListener("click", toggleModal);
+// window.addEventListener("click", windowOnClick);
 
 
 
