@@ -2,14 +2,22 @@
     height: 72px;
 }
 
+.header_container{
+ 
+  background-color: white;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+
+}
+
 .header__box > a{
     font-weight: 600;
     color: var(--black-50);
 }
 
-.header__link:hover{
-color: var(--gray-200);
+.active, .header__link:hover{
+  color: var(--gray-200);
 }
+
 
 .mob_box{
     float: right;
@@ -47,6 +55,10 @@ color: var(--gray-200);
   
   .overlay-header a:hover, .overlay-header a:focus {
     color: #f1f1f1;
+  }
+
+  .closebtn{
+    color: white;
   }
   
   .overlay-header .closebtn {
