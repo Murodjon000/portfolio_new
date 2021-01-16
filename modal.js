@@ -1,22 +1,59 @@
-var modal = document.querySelector(".modal");
-var trigger = document.querySelector(".trigger");
-var closeButton = document.querySelector(".modal-close-btn");
-var overlay = document.querySelector(".overlay")
 
-function toggleModal() {
-  modal.classList.toggle("show-modal");
-  overlay.classList.toggle('is-visible')
-}
+// Get the button that opens the modal
+var btn = document.querySelectorAll("button.modal-button");
 
-function windowOnClick(event) {
-  if (event.target === modal) {
-    toggleModal();
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("modal-close-btn ");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+  btn[i].onclick = function (e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
   }
 }
 
-trigger.addEventListener("click", toggleModal);
-closeButton.addEventListener("click", toggleModal);
-window.addEventListener("click", windowOnClick);
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+  spans[i].onclick = function () {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+    }
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target.classList.contains('modal')) {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+    }
+  }
+}
+
+// var modal = document.querySelector(".modal");
+// var trigger = document.querySelector(".trigger");
+// var closeButton = document.querySelector(".modal-close-btn");
+// var overlay = document.querySelector(".overlay")
+
+// function toggleModal() {
+//   modal.classList.toggle("show-modal");
+//   overlay.classList.toggle('is-visible')
+// }
+
+// function windowOnClick(event) {
+//   if (event.target === modal) {
+//     toggleModal();
+//   }
+// }
+
+// trigger.addEventListener("click", toggleModal);
+// closeButton.addEventListener("click", toggleModal);
+// window.addEventListener("click", windowOnClick);
 
 
 // var modal_two = document.querySelector(".modal_two");
@@ -43,39 +80,5 @@ window.addEventListener("click", windowOnClick);
 
 
 
-// document.getElementById('btn-modal').addEventListener('click', function() {
-//     document.getElementById('overlay').classList.add('is-visible');
-//     document.getElementById('modal').classList.add('is-visible');
-//   });
 
-//   document.getElementById('close-btn').addEventListener('click', function() {
-//     document.getElementById('overlay').classList.remove('is-visible');
-//     document.getElementById('modal').classList.remove('is-visible');
-//   });
-//   document.getElementById('overlay').addEventListener('click', function() {
-//     document.getElementById('overlay').classList.remove('is-visible');
-//     document.getElementById('modal').classList.remove('is-visible');
-//   });
-
-
-
-  // var modal = document.getElementById('popup-modal');
-// var btn = document.getElementById("open-popup-modal");
-// var span = document.getElementsByClassName("modal-close")[0];
-// btn.onclick = function() {
-// modal.style.display = "block";
-// }
-// span.onclick = function() {
-// modal.style.display = "none";
-// }
-// window.onload = function() {
-// setTimeout(function() {
-// modal.style.display = 'block';
-// }, 3000);
-// }
-// window.onclick = function(event) {
-// if (event.target == modal) {
-// modal.style.display = "none";
-// }
-// }
 
