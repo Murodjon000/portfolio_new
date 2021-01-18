@@ -34,3 +34,7 @@ font-size: 24px;
 .main__box-con:hover{
   color: var(--black-200);
 }
+
+.header__box-con{
+  font-size: 24px;
+}
