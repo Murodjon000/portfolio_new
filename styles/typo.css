@@ -60,3 +60,7 @@
 .text-input{
     color: var(--gray-200);
 }
+
+.bold{
+    font-weight: 700;
+}
